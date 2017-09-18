@@ -6,3 +6,11 @@ __pycache__
 .idea/
 tests/.cache/v/cache/lastfailed
 .cache/v/cache/lastfailed
+
+cargo_planning-*.zip
+cargo_planning-result-*.json
+
+*.results
+
+heuristic_analysis.pdf
+research_review.pdf
