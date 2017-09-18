@@ -127,4 +127,8 @@ In terms of node expansion the A\* search with levelsum heuristic does the best 
 
 ## Summary
 
-Overall, the A\* search with levelsum heuristic expands the least nodes out of the tested searches regardless of the problem it faces. This is due to the fact it plans which nodes to expand using a planning graph. As a result, this search becomes computationally expensive to performs which shows in the times it needs to find the optimal solution. To improve the time complexity, a depth first graph search may be used. However, it does not always find the optimal solution so the use case for this search strategy is limited. As a compromise between the two, a search strategy like A\* search with ignore preconditions heuristic could be chosen. As it performs really well in terms of time complexity, expands relatively few nodes and at the same time the heuristic it uses is not computationally expensive.
+Overall, the A\* search with levelsum heuristic expands the least nodes out of the tested searches regardless of the problem it faces. This is due to the fact it plans which nodes to expand using a planning graph. As a result, this search becomes computationally expensive to performs which shows in the times it needs to find the optimal solution. To improve the time complexity, a depth first graph search may be used. However, it does not always find the optimal solution so the use case for this search strategy is limited. As a compromise between the two, a search strategy like A\* search with ignore preconditions heuristic could be chosen. As it performs really well in terms of time complexity, expands relatively few nodes and at the same time the heuristic it uses is not computationally expensive. Additionally, it is a great showcase for the difference between the informed and uninformed searches[1].
+
+# References
+
+0. Stuart J. Russell, Peter Norvig (2003). ["Artificial Intelligence: A Modern Approach"](http://aima.cs.berkeley.edu/)
